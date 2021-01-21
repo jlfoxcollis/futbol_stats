@@ -30,3 +30,7 @@ This project requires Ruby 2.5.3.
     * `rails db:create`
 * Run the test suite with `bundle exec rspec`.
 * Run your development server with `rails s` to see the app in action.
+
+## Phases
+
+1. [User Stories](./user_stories.md)
