@@ -9,26 +9,58 @@ The game should be a clickable link that redirects to that games show page,
 And the season should be a link redirecting to that seasons show page.
 (note: This list of games should
 ```
-
-``` 
+ 
 ### All games statistics
 (note: these statistics are for all teams across all seasons/leagues.  An all time game stats page.)
 
+```
 As a visitor
 
-When I visit the game statistics index page, At the top I see the Following Statistics.
-highest_total_score: Highest sum of the winning and losing teams’ scores.
-lowest_total_score: Lowest sum of the winning and losing teams’ scores.
-percentage_home_wins: Percentage of games that a home team has won (rounded to the nearest 100th)
-percentage_visitor_wins: Percentage of games that a visitor has won (rounded to the nearest 100th)
-percentage_ties: Percentage of games that has resulted in a tie (rounded to the nearest 100th)
-count_of_games_by_season: 	A hash with season names (e.g. 20122013) as keys and counts of games as values
-average_goals_per_game: Average number of goals scored in a game across all seasons including both home and away goals (rounded to the nearest 100th)
-average_goals_by_season: Average number of goals scored in a game organized in a hash with season names (e.g. 20122013) as keys and a float representing the average number of goals in a game for that season as values (rounded to the nearest 100th)
+When I visit the game statistics index page, I see the game with the highest total score(sum of the winning and losing teams scores).
 ```
 
 ```
+As a visitor
+
+When I visit the game stats index page, I see the game with the lowest total score(sum of the winning and losing teams scores).
+```
+
+```
+As a visitor
+
+When I visit the games stats index page, I see the percentage of games that a home team has won(rounded to nearest 100th).
+```
+
+```
+As a visitor
+
+When I visit the games stats index page, I see the percentage of games that a visitor has won(rounded to nearest 100th).
+```
+
+```
+As a visitor
+
+When I visit the games stats index page, I see the percentage of games that resulted in a tie(rounded to nearest 100th).
+```
+
+```
+As a visitor
+
+When I visit the games stats index page, I see A list of seasons with the count of games played during each season.
+I also see the average number of goals scored in a game for that season.
+Each season should be a clickable link that directs to that seasons show page.
+```
+
+```
+As a visitor
+
+When I visit the games stats index page, I see the average number of goals scored in a game across all seasons including home and away goals(rounded to nearest 100th).
+```
+
+
 ### Games show page
+
+```
 As A visitor
 
 When I visit a games show page, I should see that games statistics, including:
@@ -38,7 +70,7 @@ When I visit a games show page, I should see that games statistics, including:
 -And venue
 ```
 
-##League Statistics
+###League Statistics
 
 ```
 Note:  With the provided CSV data, There is only 1 league which represents statistics across all seasons.
