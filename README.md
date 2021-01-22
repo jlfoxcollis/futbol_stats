@@ -15,9 +15,7 @@ Futbol is a mod 1 group project, And is being used now for AR/RSPEC/SQL fun mod 
 - must use Rails 5.2.x
 - must use PostgreSQL
 - all code must be tested via feature tests and model tests, respectively
-- must use GitHub branching, team code reviews via GitHub comments, and github projects to track progress on user stories
-- must include a thorough README to describe the project
-- must deploy completed code to Heroku
+- Practice deploying (partial)-completed code to Heroku
 
 ## Setup
 
