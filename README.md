@@ -11,7 +11,7 @@ Futbol is a mod 1 group project, And is being used now for AR/RSPEC/SQL fun mod 
 - Turn open ended features into detailed user stories utilizing Github issues and a Github project board
 - Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code
 
-## Requirements
+## Optionals
 - must use Rails 5.2.x
 - must use PostgreSQL
 - all code must be tested via feature tests and model tests, respectively
